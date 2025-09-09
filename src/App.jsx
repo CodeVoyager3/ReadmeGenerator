@@ -42,7 +42,7 @@ function App() {
     const headers = {
       'Accept': 'application/vnd.github.v3+json',
       'User-Agent': 'README',
-      'Authorization': `token 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`
+      'Authorization': `token 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`
     };
     let resp = await fetch(url, { headers })
     // we are handling possible errors here
